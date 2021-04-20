@@ -1,13 +1,17 @@
-p {
-    font-family: sans-serif;
-    color: red;
-    background-color: blue;
-}
-span {
+
+h3 {
     
     font-weight: bold;
-    font-size: 14vw;
     font-style: italic;
+    color: green;
+    
     
 }
+li {
+    font-weight: bold;
+
+
+}
+
+
 
