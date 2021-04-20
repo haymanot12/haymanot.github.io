@@ -3,3 +3,11 @@ p {
     color: red;
     background-color: blue;
 }
+span {
+    
+    font-weight: bold;
+    font-size: 14vw;
+    font-style: italic;
+    
+}
+
