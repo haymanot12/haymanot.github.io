@@ -50,6 +50,10 @@ h3::first-letter{
     
     text-decoration: underline;
   }
+  #cssvalidator,#htmlvalidator{
+    width: 10%;
+    height: auto;
+  }
 
 
 
