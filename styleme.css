@@ -21,4 +21,36 @@ h3{
     color: cornsilk;
 
 }
+#hyper1,#hyper2,#hyper3{
+
+    text-decoration: none;
+
+
+}
+p::first-letter{
+
+    font-size: xx-large;
+    
+
+}
+h3::first-letter{
+    font-size: xx-large;
+
+}
+#hyper2{
+    text-decoration: none;
+}
+
+#hyper3 {
+   
+    text-decoration: none;
+}
+
+#hyper1:hover,#hyper2:hover,#hyper3:hover {
+    
+    text-decoration: underline;
+  }
+
+
+
 
