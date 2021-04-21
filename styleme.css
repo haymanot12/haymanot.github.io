@@ -2,7 +2,6 @@ span{
 
     font-weight: bold;
     font-style: italic;
-    color:blueviolet;
 
 }
 
@@ -24,11 +23,13 @@ h3{
 #hyper1,#hyper2,#hyper3{
 
     text-decoration: none;
+    color: red;
 
 
 }
 p::first-letter{
 
+     
     font-size: xx-large;
     
 
