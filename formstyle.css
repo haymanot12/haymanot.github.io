@@ -4,8 +4,8 @@
     background-color: rgb(125, 160, 125);
     margin-left: 2px;
     top: 1px;
-    font-style: italic;
-    font-weight: bold;
+    font-style: normal;
+    font-weight: bolder;
   
 
 }
@@ -23,9 +23,43 @@
 }
 #firstname:after, #lastname:after, #company:after, #address:after, #email:after, #number:after {
  
-  color: #e32;
-  content: ' *';
-  display:inline;
+  /* display: inline;
+   color: #e32;
+   content: ' *';
+   display:inline;*/
+ 
+   content: "*";
+   margin:0 0.5em;
+   display:inline-block;
+   color:#e32;
+  
+ 
+ }
+ #firstname, #lastname, #company, #address, #email, #number {
+ 
+  /* display: inline;
+   color: #e32;
+   content: ' *';
+   display:inline;*/
+ 
+  font-weight: bold;
+  
+ 
+ }
+ 
+
+#tite:after{
+  content: "";
+  margin:0 0.5em;
+  display:inline-block;
+  border: 7px solid transparent;
+  border-top:8px solid rgb(15, 15, 15);
+  border-bottom:0 none;
+}
+
+#more{
+
+  font-size: 15px;
 
 }
 #headselect{
@@ -71,17 +105,18 @@
   display: flex;
   justify-content: center; 
   bottom: 0px; 
-  background-color: rgb(77, 155, 135);
+  background-color: rgb(173, 177, 176);
  
     
 
   }
   #submit, #reset{
-    color: rgb(98, 216, 134);
+    color: rgb(223, 230, 225);
 
   }
   form  {
     font-weight:bold;
+    width: auto;
     }
     #left > #topp {
         font-weight:bold;
@@ -113,6 +148,11 @@
   
     select option {
       font-weight:normal;
+    }
+    button{
+        background-color: cadetblue;
+        margin-left: 5px;
+
     }
 
 

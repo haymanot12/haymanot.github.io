@@ -5,21 +5,28 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="formstyle.css" type="text/css" rel="stylesheet"/>
+    <style>
+        #Iframe {
+            border: 3px dotted;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
   
 
   </head>
   <body>
         <div id="head">
-            <pre id="tit"> <p>Workshop Registration</p>     More Action <select name="" id="headselect"></select></pre>
+            <pre id="tit"> <p id="tite">Workshop Registration     <span id="more"> More Action  </span></p>      </pre>
 
             <form action=#>
 
                  <div id="left">
                     <pre id="topp">Register now while seats are available!</pre>
-                    <pre id="firstname">First Name                      <input type="text" name="first-name" required><br/></pre>
-                    <pre id="lastname">Last Name                        <input type="text" name="last-name" required><br/></pre>
-                    <pre id="company">Company/Institution               <input type="text" name="company" required><br/> </pre>
-                    <pre id="address">Address                           <textarea name="adress" required></textarea><br/> </pre>
+                    <pre id="firstname">First Name                         <input type="text" name="first-name" required><br/></pre>
+                    <pre id="lastname">Last Name                          <input type="text" name="last-name" required><br/></pre>
+                    <pre id="company">Company/Institution                <input type="text" name="company" required><br/> </pre>
+                    <pre id="address">Address                            <textarea name="adress" required></textarea><br/> </pre>
                     <pre>City                              <input type="text" name="city" ><br/></pre> 
                     <pre>State/Province/Region             <select name="select">
                         <option>-select-</option>
@@ -41,7 +48,7 @@
                         </select><br/><br/> </pre>
                    
                     <pre id="email">Email                             <input type="email" name="email" required><br/></pre>
-                    <pre id="number">Phone Number                      <input type="number" name="num" required><br/></pre>
+                    <pre id="number">Phone Number                      <input type="text" name="num" required><br/></pre>
                 </div>
 
         <div id="right">
@@ -62,12 +69,12 @@
             <pre>Payable At            <input type="text" name="payable"></pre>
    
             </div>
-        </form>
+       
         <footer id="bottomcenter">
          <button id="submit" type="submit" name="Submit">Submit</button>
         <button id="reset" type="reset" name="reset">Reset </button>
         </footer>
-   
+    </form>
     </div> 
 </body>
 </html>
